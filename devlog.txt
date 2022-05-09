@@ -1,0 +1,41 @@
+/*
+		  for (const [index, value] of json.entries()) {
+   
+			  the_products.push(<Product productName={ })
+			  
+		  }
+		  */
+		  //This is cool lol 
+		  //Binayak Sahu: Tue-1-Mar-2022-05-54-PM
+		  
+		  
+Sun-3-Apr-2022-03-47-PM
+
+ /*
+				 <div class="controls">
+					 <svg className="leftArrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+  <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+					 </svg>
+					 
+					 <svg className="rightArrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+
+*/
+/*
+<Button variant="outlined" color="#34bf49">See All</Button>
+	//all right boys we found the culprint. It was the button component Thu-31-Mar-2022-06-43-PM		 
+*/				 
+
+Sun-3-Apr-2022-03-48-PM
+
+
+
+//removed this Sun-3-Apr-2022-04-25-PM
+
+ for (var i = 0; i < Object.keys(response); i++){
+			  productarr.push(<Product name={element[i].name} src={element[i].image_url} price={element[i].price} stars="5.0"/>)
+		}
+		
+		
+		

@@ -1,0 +1,195 @@
+@import https: //cdn.sahu.me/Fonts/OpenSans-Bold.ttf
+  @import https: //cdn.sahu.me/Fonts/OpenSans-Regular.ttf
+  @font-face {
+  font-family: opensans-regular;
+  src: url("https://cdn.sahu.me/Fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-bold;
+  src: url("https://cdn.sahu.me/Fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url("https://cdn.sahu.me/Fonts/OpenSans-Light.ttf");
+}
+
+html body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: opensans-bold;
+}
+
+p {
+  font-family: opensans-light;
+}
+
+a {
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  background-color: white;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.header-item {
+  display: flex;
+  width: 25%;
+}
+
+.header-item img {
+  width: 3.5vh;
+  height: 3.5vw;
+}
+
+.logo {
+  float: left;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 90%;
+  width: 40%;
+}
+
+.logo img {
+  padding: 1vh;
+  align-content: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  float: right;
+  height: 90%;
+  width: 60%;
+  padding-top: 3px;
+}
+
+.links * {
+  align-content: center;
+  justify-content: left;
+}
+
+.links a {
+  font-size: 1vh;
+}
+
+.links div {
+  width: 20vh;
+  height: auto;
+}
+
+.links img {
+  width: 20vh;
+}
+
+.title-and-subtitle {
+  font-size: 8vh;
+  padding: 2vw;
+}
+
+.title-and-subtitle * {
+  font-size: 2vw;
+}
+
+.big-green-button {
+  text-align: center;
+  background-color: #0abf53;
+  font-size: 2vw;
+  padding: 2vh;
+  color: white;
+  text-decoration: none;
+}
+
+.big-green-button:hover {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-color: #058036;
+}
+
+.big-white-button {
+  text-align: center;
+  background-color: white;
+  font-size: 2vw;
+  padding: 2vh;
+  color: #444444;
+  text-decoration: none;
+}
+
+.big-white-button:hover {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-color: #cfcfcf;
+}
+
+.background {
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    rgba(139, 251, 113, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-image: url("img/backgrounds/sanjukta-general-store-chandrasekharpur-bhubaneshwar-departmental-stores-22zc6t1.jpg");
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.background img.transparent {
+  opacity: 0;
+}
+
+.form-container {
+  padding: 2vh;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden {
+  display: hidden;
+}
+
+a {
+  cursor: pointer;
+  color: #058036;
+}
+
+input {
+  padding: 1vh;
+}
+
+input:active {
+  border: 3px solid #0abf53;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.account-connection {
+  width: 7vh;
+  height: 7vh;
+}

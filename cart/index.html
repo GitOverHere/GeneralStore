@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Senjukta General Store</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SanjuptaGeneralStore">
+<meta name="twitter:title" content="Topfraggr">
+<meta name="twitter:description" content="You can stop at several stores or just one.">
+<meta name="twitter:image" content="img/code.jpg">
+<meta property="og:image" content="img/code.jpg" itemprop="thumbnailUrl">
+<meta property="og:title" content="">
+<meta property="og:url" content="https://sahu.me/sanjupta">
+<meta property="og:site_name" content="Sanjupata General Store">
+<meta property="og:description" content="You can stop at several stores or just one.">
+<link rel="apple-touch-icon" type="image/png" href="img/touch-icon.png" />
+<meta name="application-name" href="">
+<meta name="apple-mobile-web-app-title" content="Sanjupta General Store">
+<link rel="shortcut icon" type="image/x-icon" href="img/touch-icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--<link rel="manifest" href="/manifest.json"> -->
+<script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="cart.js" type="text/babel"></script>
+</head>
+
+<body>
+<header class="header">
+<div class="section">
+<div class="logo" id="logo">
+<a class="home" id="home" href="#intro"><img src="images/logo.svg" width="60" height="60" alt="General Store Logo" \=""></a>
+</div>
+
+
+<div class="links">
+<div class="my-account header-item">
+
+<img src="img/profile.svg" alt="Your Account"></img>
+<a href="account">Welcome <?php
+
+if(isset($_SESSION["username"])){
+ echo $_SESSION["username"];
+}
+else {
+echo "User";	
+	
+	
+}
+ ?></a>
+</div>
+<div class="cart header-item">
+<img src="img/cart.svg"></img>
+<a href="#cart" alt="Cart">My Cart</a>
+
+</div>
+
+<div class="products header-item">
+<img src="img/products.svg" alt="Products">
+<a href="products" alt="Cart">All Products</a>
+</div>
+
+
+<div class="deals header-item">
+<img src="img/deals.svg" alt="Deals">
+<a href="deals" alt="Deals">Deals</a>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+</header>
+
+
+<article id="cart">
+
+
+</article>
+
+
+
+
+
+
+
+
+</article>
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+
+<div class="col1">
+
+<div class="social-media">
+<h1>Follow us on Social Media</h1>
+<a href=""></a>
+<a href="asdasdasd">Facebook</a>
+<a href="asdasdasd">Twitter</a>
+<a href="asdasdasd">Instagram</a>
+<a href="asdasdasd">Whatsapp</a>
+
+</div>
+</div>
+
+
+
+<div class="col2">
+<a href="about">About Us</a>
+<a href="products">Products</a>
+<a href="deals">Deals</a>
+<a href="forum">Forum</a>
+<a href="about">Sitemap</a>
+<a href="jobs">Jobs</a>
+
+</div>
+
+
+
+<div class="col3">
+<a href="tos">Terms of Service</a>
+<a href="privacy-policy">Privacy policy</a>
+<a href="deals">Deals</a>
+<a href="faq">Frequently asked questions</a>
+<a href="about">Sitemap</a>
+<a href="jobs">Jobs</a>
+
+
+
+</div>
+
+
+
+
+</footer>
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+
+
+</html>

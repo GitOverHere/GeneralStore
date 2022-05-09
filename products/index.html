@@ -1,0 +1,215 @@
+<html lang="en">
+<head>
+<title>Senjukta General Store</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SanjuptaGeneralStore">
+<meta name="twitter:title" content="Topfraggr">
+<meta name="twitter:description" content="You can stop at several stores or just one.">
+<meta name="twitter:image" content="img/code.jpg">
+<meta property="og:image" content="img/code.jpg" itemprop="thumbnailUrl">
+<meta property="og:title" content="">
+<meta property="og:url" content="https://sahu.me/sanjupta">
+<meta property="og:site_name" content="Sanjupata General Store">
+<meta property="og:description" content="You can stop at several stores or just one.">
+<link rel="apple-touch-icon" type="image/png" href="img/touch-icon.png" />
+<meta name="application-name" href="">
+<meta name="apple-mobile-web-app-title" content="Sanjupta General Store">
+<link rel="shortcut icon" type="image/x-icon" href="img/touch-icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--<link rel="manifest" href="/manifest.json"> -->
+<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+<header class="header">
+<div class="section">
+<div class="logo" id="logo">
+<a class="home" id="home" href="#intro"><img src="img/logo.svg" width="60" height="60" alt="General Store Logo" \=""></a>
+</div>
+
+
+<div class="links">
+<div class="my-account header-item">
+
+<img src="img/profile.svg" alt="Your Account"></img>
+<a href="account">Welcome <?php
+
+if(isset($_SESSION["username"])){
+ echo $_SESSION["username"];
+}
+else {
+echo "User";	
+	
+	
+}
+ ?></a>
+</div>
+<div class="cart header-item">
+<img src="img/cart.svg"></img>
+<a href="cart" alt="Cart">My Cart</a>
+
+</div>
+
+<div class="products header-item">
+<img src="img/products.svg" alt="Products">
+<a href="products" alt="Cart">All Products</a>
+</div>
+
+
+<div class="deals header-item">
+<img src="img/deals.svg" alt="Deals">
+<a href="deals" alt="Deals">Deals</a>
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<div class="catalog">
+
+
+
+
+
+</div>
+
+
+
+<div class="product-page">
+<div class="bar">
+
+<svg src="img/icon.svg"></svg>
+
+
+</div>
+
+<div class="row1">
+
+<div class="product-info">
+
+<h1 class="title">Product Title</h1>
+<h3 class="price">₹ 1231</h3>
+<div class="description">
+<p>Information about the product goes here.</p>
+
+
+</div>
+
+ 
+
+
+
+<a class="big-button big-green-button" id="add-to-cart">Add To Cart</a>
+<a class="big-button" id="one-click-order">One Click Order</a>
+</div>
+<img src="img/product.jpg" alt="Product Image" class="product-image">
+</div>
+<div class="row2">
+<div class="reviews">
+
+<select class="reviewCount" id="reviewCount">
+
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="25">25</option>
+<option value="50">50</option>
+<option value="75">75</option>
+<option value="100">100</option>
+</select>
+
+
+</div>
+
+<div class="suggestions">
+
+<div class="suggestion">
+
+<div class="image">
+<img src="img/product.png">
+</div>
+<div class="suggestion-text">
+
+<a onclick=openProduct(name)>
+<h2 class="suggested_product-title">Product</h3>
+<h4 class="suggested_pproduct-price">₹123</h4>
+ <div class="star-box">
+  <img src="img/star.svg"></img>
+   <p class="rating">5.0</p>
+ 
+ </div>
+</a>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+<footer class="footer">
+
+
+<div class="col1">
+
+<div class="social-media">
+<h1>Follow us on Social Media</h1>
+<a href=""></a>
+<a href="asdasdasd"><img src="img/social-media/facebook.png" alt="Facebook Logo"></a>
+<a href="asdasdasd"><img src="img/social-media/twitter.png" alt="Twitter Logo"></a>
+<a href="asdasdasd"><img src="img/social-media/instagram.png" alt="Instagram Logo"></a>
+<a href="asdasdasd"><img src="img/social-media/whatsapp.png" alt="WhatsApp Logo"></a>
+
+</div>
+</div>
+
+
+
+<div class="col2">
+<a href="about">About Us</a>
+<a href="products">Products</a>
+<a href="deals">Deals</a>
+<a href="forum">Forum</a>
+<a href="about">Sitemap</a>
+<a href="jobs">Jobs</a>
+
+</div>
+
+
+
+<div class="col3">
+<a href="tos">Terms of Service</a>
+<a href="privacy-policy">Privacy policy</a>
+<a href="deals">Deals</a>
+<a href="faq">Frequently asked questions</a>
+<a href="about">Sitemap</a>
+<a href="jobs">Jobs</a>
+
+
+
+</div>
+
+
+
+
+</footer>
+
+
+
+
+
+
+</div>
+
+<script src="test.js" type="text/babel"></script>
+
+</body>
+</html>
